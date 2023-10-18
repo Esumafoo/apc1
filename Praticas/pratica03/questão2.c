@@ -18,7 +18,8 @@ int main(){
       printf("Valor bruto com desconto de 5%%: %.2f\n", numero * 0.95);}
      else if (numero > 500){
       printf ("Valor bruto: %.2f\n", numero);
-      printf("Valor bruto com desconto de 10%%: %.2f\n", numero * 0.90);} else { printf("Nao eh um valor ponto flutuante. Tente novamente!\n");}
+      printf("Valor bruto com desconto de 10%%: %.2f\n", numero * 0.90);} 
+     else { printf("Nao eh um valor ponto flutuante. Tente novamente!\n");}
   }
   
 
